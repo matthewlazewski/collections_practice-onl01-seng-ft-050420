@@ -1,3 +1,9 @@
 def sort_array_asc(array)
-  sorrted_array = array.sort
+  sorted_array = array.sort
 end 
+
+def sort_array_desc(array)
+  sorted_array = array.sort do |a,b|
+    b <=> a 
+  end
+end
